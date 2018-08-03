@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+    <title>Alan is Board</title>
+    <meta name="google-signin-client_id" content="108886848328-f8idum7ojue97ugs733gdahvvfhumrd3.apps.googleusercontent.com">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="my-signin2"></div>
+            </div>
+            <div class="vl">
+                <span class="vl-innertext">or</span>
+            </div>
+            <div class="col">
+                <h3 style="text-align:center">Continue as guest:</h3>
+                <input type="text" name="username" placeholder="Nick name" required>
+                <input type="submit" value="Continue" onclick="guestLogin()">
+            </div>
+        </div>
+    </div>
+
+    <script src="/javascript/lobby.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+</html>
